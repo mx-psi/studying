@@ -30,7 +30,7 @@ Algunos aspectos que actualmente no sabemos cómo controlar y que afectan a tu r
 
 <span style="font-size:1.6em">
 Dormir y tener una alimentación adecuada es importante!!
-</span><sup><span style="font-size:0.5em">[[1]](https://www.sciencedirect.com/science/article/pii/S1087079205001231), [[2]](https://link.springer.com/article/10.1007%2Fs11325-009-0282-2), [[3]](https://www.webmd.com/sleep-disorders/sleep-deprivation-effects-on-memory)</span></sup>
+</span><sup><span style="font-size:0.5em">[[1]](https://www.sciencedirect.com/science/article/pii/S1087079205001231), [[2]](https://www.ncbi.nlm.nih.gov/pubmed/28515433), [[3]](https://www.webmd.com/sleep-disorders/sleep-deprivation-effects-on-memory)</span></sup>
 
 ## Gestión del tiempo
 
