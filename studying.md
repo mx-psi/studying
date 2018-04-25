@@ -5,7 +5,7 @@ lang: es
 theme: white
 ---
 
-<div style="font-size:1.6em">
+<div style="font-size:1.5em">
 [`mx-psi.github.io/studying`](https://mx-psi.github.io/studying)
 </div>
 
