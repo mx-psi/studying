@@ -51,20 +51,20 @@ Algunas cosas que parecen ayudar<sup>*</sup>:
 
 > **\***: "Time management behaviours relate positively to perceived control of time, job satisfaction, and health, and negatively to stress. The relationship with work and academic performance **is not clear**" -- [**A review of the time management literature**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)
 
-<!-- ## ¿[Nootrópicos](https://www.gwern.net/Nootropics)? -->
+## ¿[Nootrópicos](https://www.gwern.net/Nootropics)?
 
-<!-- - Tamaños de efecto mucho menores que las técnicas de estudio efectivas -->
-<!-- - Mucho son adictivos, ilegales sin prescripción médica o con efectos poco estudiados -->
-<!-- - El café parece estar bien -->
+- Tamaños de efecto mucho menores que las técnicas de estudio efectivas
+- Mucho son adictivos, ilegales sin prescripción médica o con efectos poco estudiados
+- El café parece estar bien
 
-<!-- *** -->
+***
 
-<!-- Si aún así quieres probarlos: -->
+Si aún así quieres probarlos:
 
-<!-- <div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div> -->
+<div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div>
 
-<!-- <div style="font-size:0.3em; width: 27%; margin:0 auto">**Aviso legal**: LibreIM no se hace responsable de las consecuencias que pudiera ocasionar cualquier intento de utilizar esta información. Nada en esta presentación debe ser entendido como un intento de ofrecer o proporcionar consejo médico o promocionar la compra o consumo de sustancias ilegales. Pórtate bien. -->
-<!-- </div> -->
+<div style="font-size:0.3em; width: 27%; margin:0 auto">**Aviso legal**: LibreIM no se hace responsable de las consecuencias que pudiera ocasionar cualquier intento de utilizar esta información. Nada en esta presentación debe ser entendido como un intento de ofrecer o proporcionar consejo médico o promocionar la compra o consumo de sustancias ilegales. Pórtate bien.
+</div>
 
 
 # Técnicas de estudio
