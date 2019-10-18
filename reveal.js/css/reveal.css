@@ -1356,6 +1356,16 @@ body {
   font-family: Helvetica, sans-serif;
   -webkit-overflow-scrolling: touch; }
 
+.reveal .speaker-notes a{
+  color: lightyellow;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.reveal .speaker-notes p{
+  margin: 0 0;
+}
+
 .reveal .speaker-notes.visible:not(:empty) {
   display: block; }
 

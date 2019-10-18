@@ -5,6 +5,8 @@ lang: es
 theme: white
 ---
 
+## {data-background-image="img/books.jpg"}
+
 <div style="font-size:1.5em">
 [`mx-psi.github.io/studying`](https://mx-psi.github.io/studying)
 </div>
@@ -16,22 +18,30 @@ theme: white
 - [Correlación no implica causalidad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) (¡a veces sí!)
 - No soy un experto
 
-<aside class="notes">
-Algunos factores son el estátus socioeconómico, IQ, características de personalidad o los profesores
-</aside>
+::: notes
+Algunos factores son el estátus socioeconómico, IQ, características de personalidad o los profesores.
+:::
 
-# Cómo mejorar la productividad
+# Cómo mejorar la productividad {data-background-image="img/balcony.jpg"}
 
 ## Sueño y nutrición
 
 <span style="font-size:1.6em">
 Dormir y tener una alimentación adecuada es importante!!
-</span><sup><span style="font-size:0.5em">[[1]](https://www.sciencedirect.com/science/article/pii/S1087079205001231), [[2]](https://www.ncbi.nlm.nih.gov/pubmed/28515433), [[3]](https://www.webmd.com/sleep-disorders/sleep-deprivation-effects-on-memory)</span></sup>
+</span>
+
+::: notes
+[Sleep loss, learning capacity and academic performance](https://www.sciencedirect.com/science/article/pii/S1087079205001231)
+:::
 
 ## Gestión del tiempo
 
 Las técnicas de gestión del tiempo no tienen una relación clara con el rendimiento académico.
-Sí tienen efectos positivos en la reducción del estrés y la satisfacción en el trabajo.<sup><span style="font-size:0.5em">[[1]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)</span></sup>
+Sí tienen efectos positivos en la reducción del estrés y la satisfacción en el trabajo.
+
+::: notes
+[A review of the time management literature](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)
+:::
 
 ***
 
@@ -41,16 +51,20 @@ Algunas cosas que parecen ayudar:
 - Establecer **objetivos** de estudio: qué, cuándo, cuánto tiempo (y [seguirlos](https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination)!).
 - **Priorizar** las tareas
 
-<aside class="notes">
+::: notes
 No hay evidencia de que ninguna técnica específica sea mejor.
-Yo uso `org-mode` y recomiendo Beeminder.
-</aside>
+Yo uso [`org-mode`](https://orgmode.org/) y recomiendo [Beeminder](https://www.beeminder.com/).
+:::
 
-## ¿[Nootrópicos](https://www.gwern.net/Nootropics)?
+## ¿Nootrópicos?
 
 - Efectos mucho menores que las técnicas de estudio efectivas
 - Muchos son sustancias adictivas, ilegales o poco estudiadas
 - El café parece estar bien
+
+::: notes
+[Gwern -- Nootropics](https://www.gwern.net/Nootropics)
+:::
 
 ***
 
@@ -58,18 +72,19 @@ Si aún así quieres probarlos:
 
 <div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div>
 
-<div class="warning">LibreIM no se hace responsable de qué hagas con esta información.
-Nada en esta presentación debe ser entendido como un consejo médico o como promoción de sustancias ilícitas.
+::: notes
+LibreIM no se hace responsable de qué hagas con esta información.
+Esto no es un consejo médico.
 Pórtate bien.
-</div>
+:::
 
 
-# Técnicas de estudio
+# Técnicas de estudio {data-background-image="img/orange.jpg"}
 
 ## Poco útiles
 
 Resumir
-: Lleva mucho tiempo. Poca evidencia. Mejor intentarlo de memoria. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</span></sup>
+: Lleva mucho tiempo. Mejor *retrieval practice*. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</span></sup>
 
 Subrayar
 : Contraproducente si lo haces mal. <sup><span style="font-size:0.5em">[[1]](https://www.ncbi.nlm.nih.gov/pubmed/19650523)</span></sup>
@@ -78,9 +93,9 @@ Releer
 : Poco útil en comparación con otras técnicas. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf)</span></sup>
 
 
-<aside class="notes">
+::: notes
 Todas tienen efectos positivos pero pequeños si las haces correctamente.
-</aside>
+:::
 
 
 ## Más útiles
@@ -98,14 +113,16 @@ Todas tienen efectos positivos pero pequeños si las haces correctamente.
 
 <div>
 Me centro en las dos primeras.
-
-Lee sobre el resto [aquí](http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf).
 </div>
 </div>
 
+::: notes
+[Six Strategies for Effective Learning -- The Learning Scientists](http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf)
+:::
 
 
-# [Repetición espaciada](https://codual.github.io/2016/07/07/repeticion-espaciada/)
+
+# Repetición espaciada {data-background-image="img/books2.jpg"}
 
 ## Qué es
 
@@ -120,6 +137,10 @@ Intentas recordar algo justo cuando lo vas a olvidar.
 </div>
 </div>
 
+::: notes
+[Repetición espaciada: consejos](https://codual.github.io/2016/07/07/repeticion-espaciada/)
+:::
+
 
 ## Cómo usarlo
 
@@ -127,9 +148,9 @@ Intentas recordar algo justo cuando lo vas a olvidar.
 - Yo uso [Anki](https://apps.ankiweb.net/). Es libre, y es gratuita para Windows, macOS, GNU/Linux y Android
 - La aplicación se encarga de gestionar el momento óptimo para volverte a preguntar
 
-<aside class="notes">
-En iOS es de pago, pero podéis usar Ankiweb.
-</aside>
+::: notes
+En iOS es de pago, pero podéis usar [Ankiweb](https://ankiweb.net/about).
+:::
 
 ***
 
@@ -139,13 +160,13 @@ En Android: [Ankidroid](https://f-droid.org/en/packages/com.ichi2.anki/).
 
 Las tarjetas se dividen en mazos y tienen distintos tipos: básico, cloze, invertidas.
 
-<aside class="notes">
-Podéis usar un servidor libre en lugar de Ankiweb si lo preferís.
-</aside>
+::: notes
+Para sincronizar hay una [alternativa libre](https://github.com/ankicommunity/anki-sync-server).
+:::
 
 ***
 
-Algunos [consejos](https://www.supermemo.com/en/articles/20rules):
+Algunos consejos:
 
 - Comprende antes de intentar memorizar
 - Utiliza el tipo de tarjeta adecuado
@@ -153,6 +174,11 @@ Algunos [consejos](https://www.supermemo.com/en/articles/20rules):
 - Divide la información
 - Evita "dar pistas"
 - Evita ambigüedades
+
+::: notes
+[Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/archives1990-2015/articles/20rules)
+:::
+
 
 ## Cuándo usarlo
 
@@ -167,9 +193,9 @@ Algunos [consejos](https://www.supermemo.com/en/articles/20rules):
 - Puedes usar mazos ya hechos: [`mx-psi/anki`](https://github.com/mx-psi/anki).
 - Si editas en el móvil, utiliza [AnkiEditor](https://f-droid.org/en/packages/com.jkcarino.ankieditor/).
 
-<aside class="notes">
-Necesitáis Anki 2.1 y AnkiDroid 2.9 o superior. Para versiones anteriores hay que utilizar `dvipng`.
-</aside>
+::: notes
+Necesitáis Anki 2.1 y AnkiDroid 2.9 o superior. Para versiones anteriores hay que utilizar [`dvipng`](https://en.wikipedia.org/wiki/Dvipng).
+:::
 
 
 # Fin
