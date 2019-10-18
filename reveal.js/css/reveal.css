@@ -8,6 +8,7 @@
 /*********************************************
  * RESET STYLES
  *********************************************/
+
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
 .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code,
@@ -316,7 +317,7 @@ body {
 
 .reveal .slides {
   position: absolute;
-  width: 100%;
+  width: 65%;
   height: 100%;
   top: 0;
   right: 0;
@@ -1351,7 +1352,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
   box-sizing: border-box;
-  text-align: left;
+  text-align: center;
   font-family: Helvetica, sans-serif;
   -webkit-overflow-scrolling: touch; }
 
@@ -1389,5 +1390,78 @@ body {
 .twocol{
   display: grid;
   align-items: center;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
+}
+
+/**************************
+* BLOCKS
+***************************/
+
+div .example, div .definition, div .proposition, div .warning {
+  position: relative;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-top: 10px;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+}
+
+div .warning{
+  border: 1px solid gold;
+  background-color: lemonchiffon;
+  font-size: 0.3em;
+  width: 40%;
+  margin: 40px auto;
+}
+
+.warning:before{
+  position: absolute;
+  top:5px;
+  left:10px;
+  content:"Aviso legal";
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+}
+
+div .example {
+  border: 1px solid #d4e9d4;
+  background-color: honeydew;
+}
+
+div .definition{
+  border: 1px solid #c0c0d1;
+  background-color: ghostwhite;
+}
+
+div .proposition{
+  border: 1px solid #e0c99c;
+  background-color: floralwhite;
+}
+
+.example:before{
+  position: absolute;
+  top:5px;
+  left:10px;
+  content:"Ejemplo";
+  color: green;
+  font-size: 0.4em;
+}
+
+.definition:before{
+  position: absolute;
+  top:5px;
+  left:10px;
+  content:"Definición";
+  color: gray;
+  font-size: 0.4em;
+}
+
+.proposition:before{
+  position: absolute;
+  top:5px;
+  left:10px;
+  content:"Proposición";
+  color: burlywood;
+  font-size: 0.4em;
 }

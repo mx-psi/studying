@@ -1,5 +1,5 @@
 ---
-title: Cómo estudiar más eficazmente
+title: Cómo estudiar mejor
 author: <span style="text-transform:lowercase"><a href="https://twitter.com/mx_psi">@mx_psi</a>(<a href="http://mstdn.io/@mx_psi">@mstdn.io</a>)</span>
 lang: es
 theme: white
@@ -17,15 +17,10 @@ theme: white
 - No soy un experto
 
 <aside class="notes">
-Algunos aspectos que actualmente no sabemos cómo controlar y que afectan a tu rendimiento:
-
-- Estatus socioeconómico: cómo de rico seas y cómo de favorable sea tu entorno
-- IQ, capacidad de memoria de trabajo, impulsividad y otros factores con un componente genético importante
-- Profesores y sistema educativo
-- Discapacidad y enfermedad
+Algunos factores son el estátus socioeconómico, IQ, características de personalidad o los profesores
 </aside>
 
-# Mejorar productividad
+# Cómo mejorar la productividad
 
 ## Sueño y nutrición
 
@@ -47,9 +42,8 @@ Algunas cosas que parecen ayudar:
 - **Priorizar** las tareas
 
 <aside class="notes">
-- org-mode, Taskwarrior, Asana, bullet journals?
-- Desarrollar hábitos (Beeminder, ¿Pavlok?)
-- No hay evidencia de qué técnicas específicas (GTD, Kanban... sean más eficientes)
+No hay evidencia de que ninguna técnica específica sea mejor.
+Yo uso `org-mode` y recomiendo Beeminder.
 </aside>
 
 ## ¿[Nootrópicos](https://www.gwern.net/Nootropics)?
@@ -64,7 +58,9 @@ Si aún así quieres probarlos:
 
 <div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div>
 
-<div style="font-size:0.3em; width: 27%; margin:0 auto">**Aviso legal**: LibreIM no se hace responsable de qué hagas con esta información. Nada en esta presentación debe ser entendido como un consejo médico o como promoción de sustancias ilícitas. Pórtate bien.
+<div class="warning">LibreIM no se hace responsable de qué hagas con esta información.
+Nada en esta presentación debe ser entendido como un consejo médico o como promoción de sustancias ilícitas.
+Pórtate bien.
 </div>
 
 
@@ -83,7 +79,7 @@ Releer
 
 
 <aside class="notes">
-Ojo, salvo subrayado si lo haces mal tienen efectos positivos en general pero son menos efectivas.
+Todas tienen efectos positivos pero pequeños si las haces correctamente.
 </aside>
 
 
@@ -107,9 +103,6 @@ Lee sobre el resto [aquí](http://www.learningscientists.org/s/Spanish-Six-Strat
 </div>
 </div>
 
-<aside class="notes">
-Los he puesto en inglés porque no sé los nombres en español y es más fácil encontrar información con ese nombre.
-</aside>
 
 
 # [Repetición espaciada](https://codual.github.io/2016/07/07/repeticion-espaciada/)
@@ -147,7 +140,7 @@ En Android: [Ankidroid](https://f-droid.org/en/packages/com.ichi2.anki/).
 Las tarjetas se dividen en mazos y tienen distintos tipos: básico, cloze, invertidas.
 
 <aside class="notes">
-Podéis usar un servidor libre si lo preferís (en la descripción de AnkiDroid de F-Droid está).
+Podéis usar un servidor libre en lugar de Ankiweb si lo preferís.
 </aside>
 
 ***
@@ -175,9 +168,7 @@ Algunos [consejos](https://www.supermemo.com/en/articles/20rules):
 - Si editas en el móvil, utiliza [AnkiEditor](https://f-droid.org/en/packages/com.jkcarino.ankieditor/).
 
 <aside class="notes">
-Esta versión sólo funciona a partir de Anki 2.1 y AnkiDroid 2.9.
-
-Para versiones anteriores hay que utilizar `dvipng` y generarlos en el ordenador
+Necesitáis Anki 2.1 y AnkiDroid 2.9 o superior. Para versiones anteriores hay que utilizar `dvipng`.
 </aside>
 
 

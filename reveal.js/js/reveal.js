@@ -39,11 +39,11 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 960,
-			height: 700,
+			width: 1024,
+			height: 768,
 
 			// Factor of the display size that should remain empty around the content
-			margin: 0.04,
+			margin: 0.02,
 
 			// Bounds for smallest/largest possible scale to apply to content
 			minScale: 0.2,
@@ -56,13 +56,13 @@
 			progress: true,
 
 			// Display the page number of the current slide
-			slideNumber: false,
+			slideNumber: true,
 
 			// Determine which displays to show the slide number on
 			showSlideNumber: 'all',
 
 			// Push each slide change to the browser history
-			history: false,
+			history: true,
 
 			// Enable keyboard shortcuts for navigation
 			keyboard: true,
@@ -103,7 +103,7 @@
 			pause: true,
 
 			// Flags if speaker notes should be visible to all viewers
-			showNotes: false,
+			showNotes: true,
 
 			// Global override for autolaying embedded media (video/audio/iframe)
 			// - null: Media will only autoplay if data-autoplay is present
@@ -147,7 +147,7 @@
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'fast', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
