@@ -9,18 +9,19 @@ theme: white
 [`mx-psi.github.io/studying`](https://mx-psi.github.io/studying)
 </div>
 
+
 ## ¿Cómo estudiar mejor?
 
-- Hay muchos factores que no podemos o no sabemos controlar
+- Hay muchos factores que no podemos o sabemos controlar
 - [Correlación no implica causalidad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) (¡a veces sí!)
-- No soy un experto en estos temas
+- No soy un experto
 
 <aside class="notes">
 Algunos aspectos que actualmente no sabemos cómo controlar y que afectan a tu rendimiento:
 
 - Estatus socioeconómico: cómo de rico seas y cómo de favorable sea tu entorno
-- IQ, capacidad de memoria de trabajo, impulsividad
-- Profesores
+- IQ, capacidad de memoria de trabajo, impulsividad y otros factores con un componente genético importante
+- Profesores y sistema educativo
 - Discapacidad y enfermedad
 </aside>
 
@@ -34,27 +35,27 @@ Dormir y tener una alimentación adecuada es importante!!
 
 ## Gestión del tiempo
 
-Algunas cosas que parecen ayudar<sup>*</sup>:
+Las técnicas de gestión del tiempo no tienen una relación clara con el rendimiento académico.
+Sí tienen efectos positivos en la reducción del estrés y la satisfacción en el trabajo.<sup><span style="font-size:0.5em">[[1]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)</span></sup>
+
+***
+
+Algunas cosas que parecen ayudar:
 
 - **Anotar** las cosas que tienes que hacer
 - Establecer **objetivos** de estudio: qué, cuándo, cuánto tiempo (y [seguirlos](https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination)!).
 - **Priorizar** las tareas
 
 <aside class="notes">
-- Al menos ayudan a sentirte menos estresado, quizás no a las notas.
 - org-mode, Taskwarrior, Asana, bullet journals?
 - Desarrollar hábitos (Beeminder, ¿Pavlok?)
 - No hay evidencia de qué técnicas específicas (GTD, Kanban... sean más eficientes)
 </aside>
 
-***
-
-> **\***: "Time management behaviours relate positively to perceived control of time, job satisfaction, and health, and negatively to stress. The relationship with work and academic performance **is not clear**" -- [**A review of the time management literature**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)
-
 ## ¿[Nootrópicos](https://www.gwern.net/Nootropics)?
 
-- Tamaños de efecto mucho menores que las técnicas de estudio efectivas
-- Mucho son adictivos, ilegales sin prescripción médica o con efectos poco estudiados
+- Efectos mucho menores que las técnicas de estudio efectivas
+- Muchos son sustancias adictivas, ilegales o poco estudiadas
 - El café parece estar bien
 
 ***
@@ -63,7 +64,7 @@ Si aún así quieres probarlos:
 
 <div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div>
 
-<div style="font-size:0.3em; width: 27%; margin:0 auto">**Aviso legal**: LibreIM no se hace responsable de las consecuencias que pudiera ocasionar cualquier intento de utilizar esta información. Nada en esta presentación debe ser entendido como un intento de ofrecer o proporcionar consejo médico o promocionar la compra o consumo de sustancias ilegales. Pórtate bien.
+<div style="font-size:0.3em; width: 27%; margin:0 auto">**Aviso legal**: LibreIM no se hace responsable de qué hagas con esta información. Nada en esta presentación debe ser entendido como un consejo médico o como promoción de sustancias ilícitas. Pórtate bien.
 </div>
 
 
@@ -72,13 +73,13 @@ Si aún así quieres probarlos:
 ## Poco útiles
 
 Resumir
-: Lleva mucho tiempo. Poca evidencia. Mejor intentarlo de memoria. <sup>[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</sup>
+: Lleva mucho tiempo. Poca evidencia. Mejor intentarlo de memoria. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</span></sup>
 
 Subrayar
-: Puede ser contraproducente si lo haces mal. <sup>[[1]](https://www.ncbi.nlm.nih.gov/pubmed/19650523)</sup>
+: Contraproducente si lo haces mal. <sup><span style="font-size:0.5em">[[1]](https://www.ncbi.nlm.nih.gov/pubmed/19650523)</span></sup>
 
 Releer
-: Poco útil en comparación con otros. <sup>[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf)</sup>
+: Poco útil en comparación con otras técnicas. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf)</span></sup>
 
 
 <aside class="notes">
@@ -100,19 +101,20 @@ Ojo, salvo subrayado si lo haces mal tienen efectos positivos en general pero so
 </div>
 
 <div>
-Me centro en repetición espaciada.
-Más información sobre las demás [aquí](http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf).
+Me centro en las dos primeras.
+
+Lee sobre el resto [aquí](http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf).
 </div>
 </div>
 
 <aside class="notes">
-Los he puesto en inglés porque no sé los nombres en español y es más fácil encontrar información con ese nombre
+Los he puesto en inglés porque no sé los nombres en español y es más fácil encontrar información con ese nombre.
 </aside>
 
 
 # [Repetición espaciada](https://codual.github.io/2016/07/07/repeticion-espaciada/)
 
-## Qué
+## Qué es
 
 <div class="twocol">
 <div>
@@ -126,18 +128,27 @@ Intentas recordar algo justo cuando lo vas a olvidar.
 </div>
 
 
-## Cómo 
+## Cómo usarlo
 
 - Lo más popular: *flashcards* con [una aplicación](https://en.wikipedia.org/wiki/List_of_flashcard_software)
-- Yo uso [Anki](https://apps.ankiweb.net/), disponible gratis para Windows, Mac, GNU/Linux y Android
+- Yo uso [Anki](https://apps.ankiweb.net/). Es libre, y es gratuita para Windows, macOS, GNU/Linux y Android
 - La aplicación se encarga de gestionar el momento óptimo para volverte a preguntar
+
+<aside class="notes">
+En iOS es de pago, pero podéis usar Ankiweb.
+</aside>
 
 ***
 
 En Android: [Ankidroid](https://f-droid.org/en/packages/com.ichi2.anki/).
+
 [Ankiweb](https://ankiweb.net/about) es un servicio gratuito para sincronizar las tarjetas.
 
 Las tarjetas se dividen en mazos y tienen distintos tipos: básico, cloze, invertidas.
+
+<aside class="notes">
+Podéis usar un servidor libre si lo preferís (en la descripción de AnkiDroid de F-Droid está).
+</aside>
 
 ***
 
@@ -150,18 +161,25 @@ Algunos [consejos](https://www.supermemo.com/en/articles/20rules):
 - Evita "dar pistas"
 - Evita ambigüedades
 
-## Cuándo
+## Cuándo usarlo
 
-- Cuando puedes dividir el conocimiento en unidades pequeñas
-- Cuando tienes al menos **5 días** (cuanto más tiempo mejor)
-- Cuando hacerlo: vinculándolo a un hábito (transporte o comidas)
+- Puedes dividir el conocimiento en unidades pequeñas
+- Tienes al menos **5 días** (cuanto más tiempo mejor)
+- Tienes un momento fijo del día para hacerlo (p. ej.: transporte público)
 
 ## Matemáticas
 
-- Una tarjeta por proposición, definición, teorema...
-- `[＄]e^{i\tau}[＄]`    →    $e^{i\tau}$ (`Ctrl`+`T`,`E`)
-- Instala [LaTeX](https://libreim.github.io/blog/2015/03/14/latex/) y `dvipng`
-- Usa los mazos de [`mx-psi/anki`](https://github.com/mx-psi/anki)
+- Haz una tarjeta por proposición, definición, teorema.
+- <span class="tex2jax_ignore">`\(e^{i\tau}\)`</span>    →    $e^{i\tau}$ (`Ctrl`+`M`,`E`).
+- Puedes usar mazos ya hechos: [`mx-psi/anki`](https://github.com/mx-psi/anki).
+- Si editas en el móvil, utiliza [AnkiEditor](https://f-droid.org/en/packages/com.jkcarino.ankieditor/).
+
+<aside class="notes">
+Esta versión sólo funciona a partir de Anki 2.1 y AnkiDroid 2.9.
+
+Para versiones anteriores hay que utilizar `dvipng` y generarlos en el ordenador
+</aside>
+
 
 # Fin
 
