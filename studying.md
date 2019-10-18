@@ -204,11 +204,10 @@ Necesitáis Anki 2.1 y AnkiDroid 2.9 o superior. Para versiones anteriores hay q
 
 
 - [Repetición espaciada: consejos](https://codual.github.io/2016/07/07/repeticion-espaciada/)
-- [*A review of the time management literature*](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&rep=rep1&type=pdf)
 - [*The Learning Scientists*](http://www.learningscientists.org/downloadable-materials)
 - [*Learning About Learning Report*](http://www.nctq.org/dmsView/Learning_About_Learning_Report)
 - [*Improving learning*](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf)
-- [*Optimizing Learning in College: Tips From Cognitive Psychology*](http://pps.sagepub.com/content/11/5/652.full.pdf)
+- [*Optimizing Learning in College*](http://pps.sagepub.com/content/11/5/652.full.pdf)
 - [*Learning how to learn*](https://www.coursera.org/learn/learning-how-to-learn)
 - Mi Pinboard: [*'education'*](https://pinboard.in/u:mx_psi/t:education) y [*'learning'*](https://pinboard.in/u:mx_psi/t:learning)
 
