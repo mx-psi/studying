@@ -104,13 +104,17 @@ body {
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: circle; }
+
+.reveal li {
+  padding: 0.25em;
+}
 
 .reveal ul ul {
   list-style-type: square; }
 
 .reveal ul ul ul {
-  list-style-type: circle; }
+  list-style-type: disc; }
 
 .reveal ul ul,
 .reveal ul ol,
