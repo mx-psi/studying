@@ -14,9 +14,10 @@ theme: white
 
 ## ¿Cómo estudiar mejor?
 
-- Hay muchos factores que no podemos o sabemos controlar
-- [Correlación no implica causalidad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) (¡a veces sí!)
-- No soy un experto
+- Hay muchos factores que no podemos o sabemos controlar.
+- [Correlación no implica causalidad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) (¡a veces sí!).
+- No soy un experto.
+
 
 ::: notes
 Algunos factores son el estátus socioeconómico, IQ, características de personalidad o los profesores.
@@ -27,7 +28,7 @@ Algunos factores son el estátus socioeconómico, IQ, características de person
 ## Sueño y nutrición
 
 <span style="font-size:1.6em">
-Dormir y tener una alimentación adecuada es importante!!
+¡Dormir y tener una alimentación adecuada es importante!
 </span>
 
 ::: notes
@@ -47,9 +48,9 @@ Sí tienen efectos positivos en la reducción del estrés y la satisfacción en 
 
 Algunas cosas que parecen ayudar:
 
-- **Anotar** las cosas que tienes que hacer
-- Establecer **objetivos** de estudio: qué, cuándo, cuánto tiempo (y [seguirlos](https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination)!).
-- **Priorizar** las tareas
+- **Anotar** las cosas que tienes que hacer.
+- Establecer **objetivos** de estudio: qué, cuándo, cuánto tiempo (¡y [seguirlos](https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination)!).
+- **Priorizar** las tareas.
 
 ::: notes
 No hay evidencia de que ninguna técnica específica sea mejor.
@@ -58,9 +59,9 @@ Yo uso [`org-mode`](https://orgmode.org/) y recomiendo [Beeminder](https://www.b
 
 ## ¿Nootrópicos?
 
-- Efectos mucho menores que las técnicas de estudio efectivas
-- Muchos son sustancias adictivas, ilegales o poco estudiadas
-- El café parece estar bien
+- Efectos mucho menores que las técnicas de estudio efectivas.
+- Muchos son sustancias adictivas, ilegales o poco estudiadas.
+- El café parece estar bien.
 
 ::: notes
 [Gwern -- Nootropics](https://www.gwern.net/Nootropics)
@@ -68,7 +69,7 @@ Yo uso [`org-mode`](https://orgmode.org/) y recomiendo [Beeminder](https://www.b
 
 ***
 
-Si aún así quieres probarlos:
+Si aun así quieres probarlos:
 
 <div style="font-size:1.6em">Toma [dosis pequeñas](http://drugs.tripsit.me/category/nootropic), [infórmate](https://darktka.github.io/) y [ten cuidado](http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/)</div>
 
@@ -84,7 +85,7 @@ Pórtate bien.
 ## Poco útiles
 
 Resumir
-: Lleva mucho tiempo. Mejor *retrieval practice*. <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</span></sup>
+: Lleva mucho tiempo. Es mejor la práctica de recuperación (*retrieval practice*). <sup><span style="font-size:0.5em">[[1]](http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf),[[2]](https://www.tandfonline.com/doi/abs/10.1080/09658210802647009)</span></sup>
 
 Subrayar
 : Contraproducente si lo haces mal. <sup><span style="font-size:0.5em">[[1]](https://www.ncbi.nlm.nih.gov/pubmed/19650523)</span></sup>
@@ -104,7 +105,7 @@ Todas tienen efectos positivos pero pequeños si las haces correctamente.
 
 <div>
 1. Repetición espaciada
-2. *Retrieval practice*
+2. Práctica de recuperación
 3. Elaboración
 4. Práctica intercalada
 5. Ejemplos concretos
@@ -144,9 +145,9 @@ Intentas recordar algo justo cuando lo vas a olvidar.
 
 ## Cómo usarlo
 
-- Lo más popular: *flashcards* con [una aplicación](https://en.wikipedia.org/wiki/List_of_flashcard_software)
-- Yo uso [Anki](https://apps.ankiweb.net/). Es libre, y es gratuita para Windows, macOS, GNU/Linux y Android
-- La aplicación se encarga de gestionar el momento óptimo para volverte a preguntar
+- Lo más popular: *flashcards* con [una aplicación](https://en.wikipedia.org/wiki/List_of_flashcard_software).
+- Yo uso [Anki](https://apps.ankiweb.net/). Es libre, y es gratuita para Windows, macOS, GNU/Linux y Android.
+- La aplicación se encarga de gestionar el momento óptimo para volverte a preguntar.
 
 ::: notes
 En iOS es de pago, pero podéis usar [Ankiweb](https://ankiweb.net/about).
@@ -182,16 +183,15 @@ Algunos consejos:
 
 ## Cuándo usarlo
 
-- Puedes dividir el conocimiento en unidades pequeñas
-- Tienes al menos **5 días** (cuanto más tiempo mejor)
-- Tienes un momento fijo del día para hacerlo (p. ej.: transporte público)
+- Puedes dividir el conocimiento en unidades pequeñas.
+- Tienes al menos **5 días** (cuanto más tiempo mejor).
+- Tienes un momento fijo del día para hacerlo (p. ej.: transporte público).
 
 ## Matemáticas
 
 - Haz una tarjeta por proposición, definición, teorema.
 - <span class="tex2jax_ignore">`\(e^{i\tau}\)`</span>    →    $e^{i\tau}$ (`Ctrl`+`M`,`E`).
 - Puedes usar mazos ya hechos: [`mx-psi/anki`](https://github.com/mx-psi/anki).
-- Si editas en el móvil, utiliza [AnkiEditor](https://f-droid.org/en/packages/com.jkcarino.ankieditor/).
 
 ::: notes
 Necesitáis Anki 2.1 y AnkiDroid 2.9 o superior. Para versiones anteriores hay que utilizar [`dvipng`](https://en.wikipedia.org/wiki/Dvipng).
