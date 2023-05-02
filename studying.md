@@ -3,6 +3,9 @@ title: Cómo estudiar mejor
 author: <span style="text-transform:lowercase"><a href="https://twitter.com/mx_psi">@mx_psi</a>(<a href="http://mstdn.io/@mx_psi">@mstdn.io</a>)</span>
 lang: es
 theme: white
+revealjs-url: reveal.js
+mathjaxurl: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js
+history: true
 ---
 
 ## {data-background-image="img/books.jpg"}
