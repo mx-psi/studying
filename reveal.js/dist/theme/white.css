@@ -287,3 +287,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 @media print {
   .backgrounds {
     background-color: #fff; } }
+
+
+/* SPEAKER NOTES */
+.reveal .speaker-notes a{
+  color: lightyellow;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.reveal .speaker-notes p{
+  margin: 0 0;
+}
