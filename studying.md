@@ -4,8 +4,13 @@ author: <span style="text-transform:lowercase"><a href="https://twitter.com/mx_p
 lang: es
 theme: white
 revealjs-url: reveal.js
-mathjaxurl: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js
+width: 1024
+height: 768
+margin: 0.02
+slideNumber: true
+showNotes: true
 history: true
+transitionSpeed: fast
 ---
 
 ## {data-background-image="img/books.jpg"}
