@@ -1,0 +1,86 @@
+/* Custom rules to modify the 'white' theme to my liking. */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+.reveal ul {
+    list-style-type: circle;
+}
+.reveal li {
+    padding: 0.25em;
+}
+.reveal ul ul ul {
+    list-style-type: disc;
+}
+/* Font for titles */
+.reveal h2 {
+    font-family: 'Muli', cursive;
+    font-size: 1.3em;
+    padding-bottom: 0.1em;
+}
+.reveal h1 {
+    font-size: 1.8em;
+    padding-bottom: 0.2em;
+    padding-top: 0.3em;
+    font-family: 'Muli', cursive;
+}
+/** SPEAKER NOTES REVEAL.JS 3.x STYLE **/
+/* Hide "Speaker notes" text */
+.reveal .speaker-notes::before{
+    content:"";
+}
+.reveal .speaker-notes {
+    padding: 0px 18px;
+}
+.reveal .speaker-notes p {
+    margin: 10px 0;
+    text-align: center;
+}
+/* Unset modifier for showNotes */
+.reveal.show-notes {
+    border-left: 0;
+    max-width: none;
+    max-height: unset;
+}
+/* This is copied over from reveal.js 3.x */
+.reveal.show-notes .speaker-notes {
+    display: block;
+    position: absolute;
+   /* Unset to reset style */
+    top: unset;
+    height: unset;
+   /* HACK: Make invisible to control visibility through inner paragraph */
+    padding: 0;
+    background-color: unset;
+    border: unset;
+    width: 70%;
+    max-height: 15%;
+    left: 15%;
+    bottom: 26px;
+    z-index: 1;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    overflow: auto;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+/* This is copied over from reveal.js 3.x but we apply it to the p instead of the div */
+.reveal.show-notes .speaker-notes p {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1024px) {
+    .reveal .speaker-notes {
+        font-size: 14px;
+   }
+}
+/* Hide placeholder saying "No notes for this slide" */
+.reveal .speaker-notes .notes-placeholder {
+    display: none;
+}
+/* This was modified manually on previous version */
+.reveal .speaker-notes a{
+    color: lightyellow;
+    font-weight: bold;
+    font-style: italic;
+}

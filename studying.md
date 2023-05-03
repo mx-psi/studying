@@ -3,7 +3,7 @@ title: Cómo estudiar mejor
 author: <span style="text-transform:lowercase"><a href="https://twitter.com/mx_psi">@mx_psi</a>(<a href="http://mstdn.io/@mx_psi">@mstdn.io</a>)</span>
 lang: es
 theme: white
-revealjs-url: reveal.js
+css: ["custom.css"]
 width: 1024
 height: 768
 margin: 0.02
