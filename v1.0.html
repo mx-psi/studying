@@ -8,25 +8,25 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="reveal.js/css/reveal.css">
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-  </script>
-  <!--[if lt IE 9]>
-  <script src="reveal.js/lib/js/html5shiv.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/white.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -34,90 +34,144 @@
 
 <section id="title-slide">
   <h1 class="title">Cómo estudiar más eficazmente</h1>
-  <p class="author"><span style="text-transform:lowercase"><a href="https://twitter.com/mx_psi"><span class="citation" data-cites="mx_psi">@mx_psi</span></a>(<a href="http://mstdn.io/@mx_psi"><span class="citation" data-cites="mstdn.io">@mstdn.io</span></a>)</span></p>
+  <p class="author"><span
+style="text-transform:lowercase"><a href="https://twitter.com/mx_psi"><span
+class="citation"
+data-cites="mx_psi">@mx_psi</span></a>(<a href="http://mstdn.io/@mx_psi"><span
+class="citation" data-cites="mstdn.io">@mstdn.io</span></a>)</span></p>
 </section>
 
 <section class="slide level2">
 
 <div style="font-size:1.5em">
-<p><a href="https://mx-psi.github.io/studying"><code>mx-psi.github.io/studying</code></a></p>
+<p><a
+href="https://mx-psi.github.io/studying"><code>mx-psi.github.io/studying</code></a></p>
 </div>
 </section>
 <section id="cómo-estudiar-mejor" class="slide level2">
 <h2>¿Cómo estudiar mejor?</h2>
 <ul>
 <li>Hay muchos factores que no podemos o no sabemos controlar</li>
-<li><a href="https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation">Correlación no implica causalidad</a> (¡a veces sí!)</li>
+<li><a
+href="https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation">Correlación
+no implica causalidad</a> (¡a veces sí!)</li>
 <li>No soy un experto en estos temas</li>
 </ul>
 <aside class="notes">
-<p>Algunos aspectos que actualmente no sabemos cómo controlar y que afectan a tu rendimiento:</p>
+<p>Algunos aspectos que actualmente no sabemos cómo controlar y que
+afectan a tu rendimiento:</p>
 <ul>
-<li>Estatus socioeconómico: cómo de rico seas y cómo de favorable sea tu entorno</li>
+<li>Estatus socioeconómico: cómo de rico seas y cómo de favorable sea tu
+entorno</li>
 <li>IQ, capacidad de memoria de trabajo, impulsividad</li>
 <li>Profesores</li>
 <li>Discapacidad y enfermedad</li>
 </ul>
 </aside>
 </section>
-<section><section id="mejorar-productividad" class="title-slide slide level1"><h1>Mejorar productividad</h1></section><section id="sueño-y-nutrición" class="slide level2">
+<section>
+<section id="mejorar-productividad" class="title-slide slide level1">
+<h1>Mejorar productividad</h1>
+
+</section>
+<section id="sueño-y-nutrición" class="slide level2">
 <h2>Sueño y nutrición</h2>
-<p><span style="font-size:1.6em"> Dormir y tener una alimentación adecuada es importante!! </span><sup><span style="font-size:0.5em"><a href="https://www.sciencedirect.com/science/article/pii/S1087079205001231">[1]</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/28515433">[2]</a>, <a href="https://www.webmd.com/sleep-disorders/sleep-deprivation-effects-on-memory">[3]</a></span></sup></p>
-</section><section id="gestión-del-tiempo" class="slide level2">
+<p><span style="font-size:1.6em"> Dormir y tener una alimentación
+adecuada es importante!! </span><sup><span style="font-size:0.5em"><a
+href="https://www.sciencedirect.com/science/article/pii/S1087079205001231">[1]</a>,
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28515433">[2]</a>, <a
+href="https://www.webmd.com/sleep-disorders/sleep-deprivation-effects-on-memory">[3]</a></span></sup></p>
+</section>
+<section id="gestión-del-tiempo" class="slide level2">
 <h2>Gestión del tiempo</h2>
 <p>Algunas cosas que parecen ayudar<sup>*</sup>:</p>
 <ul>
 <li><strong>Anotar</strong> las cosas que tienes que hacer</li>
-<li>Establecer <strong>objetivos</strong> de estudio: qué, cuándo, cuánto tiempo (y <a href="https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination">seguirlos</a>!).</li>
+<li>Establecer <strong>objetivos</strong> de estudio: qué, cuándo,
+cuánto tiempo (y <a
+href="https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination">seguirlos</a>!).</li>
 <li><strong>Priorizar</strong> las tareas</li>
 </ul>
 <aside class="notes">
 <ul>
-<li>Al menos ayudan a sentirte menos estresado, quizás no a las notas.</li>
+<li>Al menos ayudan a sentirte menos estresado, quizás no a las
+notas.</li>
 <li>org-mode, Taskwarrior, Asana, bullet journals?</li>
 <li>Desarrollar hábitos (Beeminder, ¿Pavlok?)</li>
-<li>No hay evidencia de qué técnicas específicas (GTD, Kanban… sean más eficientes)</li>
+<li>No hay evidencia de qué técnicas específicas (GTD, Kanban… sean más
+eficientes)</li>
 </ul>
 </aside>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <blockquote>
-<p><strong>*</strong>: “Time management behaviours relate positively to perceived control of time, job satisfaction, and health, and negatively to stress. The relationship with work and academic performance <strong>is not clear</strong>” – <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&amp;rep=rep1&amp;type=pdf"><strong>A review of the time management literature</strong></a></p>
+<p><strong>*</strong>: “Time management behaviours relate positively to
+perceived control of time, job satisfaction, and health, and negatively
+to stress. The relationship with work and academic performance
+<strong>is not clear</strong>” – <a
+href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&amp;rep=rep1&amp;type=pdf"><strong>A
+review of the time management literature</strong></a></p>
 </blockquote>
-</section><section id="nootrópicos" class="slide level2">
+</section>
+<section id="nootrópicos" class="slide level2">
 <h2>¿<a href="https://www.gwern.net/Nootropics">Nootrópicos</a>?</h2>
 <ul>
-<li>Tamaños de efecto mucho menores que las técnicas de estudio efectivas</li>
-<li>Mucho son adictivos, ilegales sin prescripción médica o con efectos poco estudiados</li>
+<li>Tamaños de efecto mucho menores que las técnicas de estudio
+efectivas</li>
+<li>Mucho son adictivos, ilegales sin prescripción médica o con efectos
+poco estudiados</li>
 <li>El café parece estar bien</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p>Si aún así quieres probarlos:</p>
 <div style="font-size:1.6em">
-Toma <a href="http://drugs.tripsit.me/category/nootropic">dosis pequeñas</a>, <a href="https://darktka.github.io/">infórmate</a> y <a href="http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/">ten cuidado</a>
+Toma <a href="http://drugs.tripsit.me/category/nootropic">dosis
+pequeñas</a>, <a href="https://darktka.github.io/">infórmate</a> y <a
+href="http://slatestarcodex.com/2017/08/10/brief-cautionary-notes-on-branded-combination-nootropics/">ten
+cuidado</a>
 </div>
 <div style="font-size:0.3em; width: 27%; margin:0 auto">
-<p><strong>Aviso legal</strong>: LibreIM no se hace responsable de las consecuencias que pudiera ocasionar cualquier intento de utilizar esta información. Nada en esta presentación debe ser entendido como un intento de ofrecer o proporcionar consejo médico o promocionar la compra o consumo de sustancias ilegales. Pórtate bien.</p>
+<p><strong>Aviso legal</strong>: LibreIM no se hace responsable de las
+consecuencias que pudiera ocasionar cualquier intento de utilizar esta
+información. Nada en esta presentación debe ser entendido como un
+intento de ofrecer o proporcionar consejo médico o promocionar la compra
+o consumo de sustancias ilegales. Pórtate bien.</p>
 </div>
 </section></section>
-<section><section id="técnicas-de-estudio" class="title-slide slide level1"><h1>Técnicas de estudio</h1></section><section id="poco-útiles" class="slide level2">
+<section>
+<section id="técnicas-de-estudio" class="title-slide slide level1">
+<h1>Técnicas de estudio</h1>
+
+</section>
+<section id="poco-útiles" class="slide level2">
 <h2>Poco útiles</h2>
 <dl>
 <dt>Resumir</dt>
-<dd>Lleva mucho tiempo. Poca evidencia. Mejor intentarlo de memoria. <sup><a href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf">[1]</a>,<a href="https://www.tandfonline.com/doi/abs/10.1080/09658210802647009">[2]</a></sup>
+<dd>
+Lleva mucho tiempo. Poca evidencia. Mejor intentarlo de memoria. <sup><a
+href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf">[1]</a>,<a
+href="https://www.tandfonline.com/doi/abs/10.1080/09658210802647009">[2]</a></sup>
 </dd>
 <dt>Subrayar</dt>
-<dd>Puede ser contraproducente si lo haces mal. <sup><a href="https://www.ncbi.nlm.nih.gov/pubmed/19650523">[1]</a></sup>
+<dd>
+Puede ser contraproducente si lo haces mal. <sup><a
+href="https://www.ncbi.nlm.nih.gov/pubmed/19650523">[1]</a></sup>
 </dd>
 <dt>Releer</dt>
-<dd>Poco útil en comparación con otros. <sup><a href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf">[1]</a></sup>
+<dd>
+Poco útil en comparación con otros. <sup><a
+href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf">[1]</a></sup>
 </dd>
 </dl>
 <aside class="notes">
-Ojo, salvo subrayado si lo haces mal tienen efectos positivos en general pero son menos efectivas.
+Ojo, salvo subrayado si lo haces mal tienen efectos positivos en general
+pero son menos efectivas.
 </aside>
-</section><section id="más-útiles" class="slide level2">
+</section>
+<section id="más-útiles" class="slide level2">
 <h2>Más útiles</h2>
 <div class="twocol">
 <div>
@@ -131,19 +185,29 @@ Ojo, salvo subrayado si lo haces mal tienen efectos positivos en general pero so
 </ol>
 </div>
 <div>
-<p>Me centro en repetición espaciada. Más información sobre las demás <a href="http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf">aquí</a>.</p>
+<p>Me centro en repetición espaciada. Más información sobre las demás <a
+href="http://www.learningscientists.org/s/Spanish-Six-Strategies-for-Effective-Learning-posters-cw5g.pdf">aquí</a>.</p>
 </div>
 </div>
 <aside class="notes">
-Los he puesto en inglés porque no sé los nombres en español y es más fácil encontrar información con ese nombre
+Los he puesto en inglés porque no sé los nombres en español y es más
+fácil encontrar información con ese nombre
 </aside>
 </section></section>
-<section><section id="repetición-espaciada" class="title-slide slide level1"><h1><a href="https://codual.github.io/2016/07/07/repeticion-espaciada/">Repetición espaciada</a></h1></section><section id="qué" class="slide level2">
+<section>
+<section id="repetición-espaciada" class="title-slide slide level1">
+<h1><a
+href="https://codual.github.io/2016/07/07/repeticion-espaciada/">Repetición
+espaciada</a></h1>
+
+</section>
+<section id="qué" class="slide level2">
 <h2>Qué</h2>
 <div class="twocol">
 <div>
 <figure>
-<img data-src="forgetting-curve.png" alt="Curva del olvido" /><figcaption>Curva del olvido</figcaption>
+<img data-src="forgetting-curve.png" alt="Curva del olvido" />
+<figcaption aria-hidden="true">Curva del olvido</figcaption>
 </figure>
 </div>
 <div>
@@ -151,20 +215,32 @@ Los he puesto en inglés porque no sé los nombres en español y es más fácil 
 <p>Intentas recordar algo justo cuando lo vas a olvidar.</p>
 </div>
 </div>
-</section><section id="cómo" class="slide level2">
+</section>
+<section id="cómo" class="slide level2">
 <h2>Cómo</h2>
 <ul>
-<li>Lo más popular: <em>flashcards</em> con <a href="https://en.wikipedia.org/wiki/List_of_flashcard_software">una aplicación</a></li>
-<li>Yo uso <a href="https://apps.ankiweb.net/">Anki</a>, disponible gratis para Windows, Mac, GNU/Linux y Android</li>
-<li>La aplicación se encarga de gestionar el momento óptimo para volverte a preguntar</li>
+<li>Lo más popular: <em>flashcards</em> con <a
+href="https://en.wikipedia.org/wiki/List_of_flashcard_software">una
+aplicación</a></li>
+<li>Yo uso <a href="https://apps.ankiweb.net/">Anki</a>, disponible
+gratis para Windows, Mac, GNU/Linux y Android</li>
+<li>La aplicación se encarga de gestionar el momento óptimo para
+volverte a preguntar</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
-<p>En Android: <a href="https://f-droid.org/en/packages/com.ichi2.anki/">Ankidroid</a>. <a href="https://ankiweb.net/about">Ankiweb</a> es un servicio gratuito para sincronizar las tarjetas.</p>
-<p>Las tarjetas se dividen en mazos y tienen distintos tipos: básico, cloze, invertidas.</p>
-</section><section class="slide level2">
+<p>En Android: <a
+href="https://f-droid.org/en/packages/com.ichi2.anki/">Ankidroid</a>. <a
+href="https://ankiweb.net/about">Ankiweb</a> es un servicio gratuito
+para sincronizar las tarjetas.</p>
+<p>Las tarjetas se dividen en mazos y tienen distintos tipos: básico,
+cloze, invertidas.</p>
+</section>
+<section class="slide level2">
 
-<p>Algunos <a href="https://www.supermemo.com/en/articles/20rules">consejos</a>:</p>
+<p>Algunos <a
+href="https://www.supermemo.com/en/articles/20rules">consejos</a>:</p>
 <ul>
 <li>Comprende antes de intentar memorizar</li>
 <li>Utiliza el tipo de tarjeta adecuado</li>
@@ -173,50 +249,223 @@ Los he puesto en inglés porque no sé los nombres en español y es más fácil 
 <li>Evita “dar pistas”</li>
 <li>Evita ambigüedades</li>
 </ul>
-</section><section id="cuándo" class="slide level2">
+</section>
+<section id="cuándo" class="slide level2">
 <h2>Cuándo</h2>
 <ul>
 <li>Cuando puedes dividir el conocimiento en unidades pequeñas</li>
-<li>Cuando tienes al menos <strong>5 días</strong> (cuanto más tiempo mejor)</li>
+<li>Cuando tienes al menos <strong>5 días</strong> (cuanto más tiempo
+mejor)</li>
 <li>Cuando hacerlo: vinculándolo a un hábito (transporte o comidas)</li>
 </ul>
-</section><section id="matemáticas" class="slide level2">
+</section>
+<section id="matemáticas" class="slide level2">
 <h2>Matemáticas</h2>
 <ul>
 <li>Una tarjeta por proposición, definición, teorema…</li>
-<li><code>[＄]e^{i\tau}[＄]</code> → <span class="math inline">\(e^{i\tau}\)</span> (<code>Ctrl</code>+<code>T</code>,<code>E</code>)</li>
-<li>Instala <a href="https://libreim.github.io/blog/2015/03/14/latex/">LaTeX</a> y <code>dvipng</code></li>
-<li>Usa los mazos de <a href="https://github.com/mx-psi/anki"><code>mx-psi/anki</code></a></li>
+<li><code>[＄]e^{i\tau}[＄]</code> → <span
+class="math inline">\(e^{i\tau}\)</span>
+(<code>Ctrl</code>+<code>T</code>,<code>E</code>)</li>
+<li>Instala <a
+href="https://libreim.github.io/blog/2015/03/14/latex/">LaTeX</a> y
+<code>dvipng</code></li>
+<li>Usa los mazos de <a
+href="https://github.com/mx-psi/anki"><code>mx-psi/anki</code></a></li>
 </ul>
 </section></section>
-<section><section id="fin" class="title-slide slide level1"><h1>Fin</h1></section><section id="enlaces" class="slide level2">
+<section>
+<section id="fin" class="title-slide slide level1">
+<h1>Fin</h1>
+
+</section>
+<section id="enlaces" class="slide level2">
 <h2>Enlaces</h2>
 <ul>
-<li><a href="https://codual.github.io/2016/07/07/repeticion-espaciada/">Repetición espaciada: consejos</a></li>
-<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&amp;rep=rep1&amp;type=pdf"><em>A review of the time management literature</em></a></li>
-<li><a href="http://www.learningscientists.org/downloadable-materials"><em>The Learning Scientists</em></a></li>
-<li><a href="http://www.nctq.org/dmsView/Learning_About_Learning_Report"><em>Learning About Learning Report</em></a></li>
-<li><a href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf"><em>Improving learning</em></a></li>
-<li><a href="http://pps.sagepub.com/content/11/5/652.full.pdf"><em>Optimizing Learning in College: Tips From Cognitive Psychology</em></a></li>
-<li><a href="https://www.coursera.org/learn/learning-how-to-learn"><em>Learning how to learn</em></a></li>
-<li>Mi Pinboard: <a href="https://pinboard.in/u:mx_psi/t:education"><em>‘education’</em></a> y <a href="https://pinboard.in/u:mx_psi/t:learning"><em>‘learning’</em></a></li>
+<li><a
+href="https://codual.github.io/2016/07/07/repeticion-espaciada/">Repetición
+espaciada: consejos</a></li>
+<li><a
+href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.466.4966&amp;rep=rep1&amp;type=pdf"><em>A
+review of the time management literature</em></a></li>
+<li><a
+href="http://www.learningscientists.org/downloadable-materials"><em>The
+Learning Scientists</em></a></li>
+<li><a
+href="http://www.nctq.org/dmsView/Learning_About_Learning_Report"><em>Learning
+About Learning Report</em></a></li>
+<li><a
+href="http://www.indiana.edu/~pcl/rgoldsto/courses/dunloskyimprovinglearning.pdf"><em>Improving
+learning</em></a></li>
+<li><a
+href="http://pps.sagepub.com/content/11/5/652.full.pdf"><em>Optimizing
+Learning in College: Tips From Cognitive Psychology</em></a></li>
+<li><a
+href="https://www.coursera.org/learn/learning-how-to-learn"><em>Learning
+how to learn</em></a></li>
+<li>Mi Pinboard: <a
+href="https://pinboard.in/u:mx_psi/t:education"><em>‘education’</em></a>
+y <a
+href="https://pinboard.in/u:mx_psi/t:learning"><em>‘learning’</em></a></li>
 </ul>
 </section></section>
     </div>
   </div>
 
-  <script src="reveal.js/lib/js/head.min.js"></script>
-  <script src="reveal.js/js/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
+      // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -232,12 +481,12 @@ Los he puesto en inglés porque no sé los nombres en español y es más fácil 
           },
         },
 
-        // Optional reveal.js plugins
-        dependencies: [
-          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'reveal.js/plugin/math/math.js', async: true },
-          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        // reveal.js plugins
+        plugins: [
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
         ]
       });
     </script>

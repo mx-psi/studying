@@ -3,6 +3,14 @@ title: Cómo estudiar mejor
 author: <span style="text-transform:lowercase"><a href="https://twitter.com/mx_psi">@mx_psi</a>(<a href="http://mstdn.io/@mx_psi">@mstdn.io</a>)</span>
 lang: es
 theme: white
+css: ["custom.css"]
+width: 1024
+height: 768
+margin: 0.02
+slideNumber: true
+showNotes: true
+history: true
+transitionSpeed: fast
 ---
 
 ## {data-background-image="img/books.jpg"}
